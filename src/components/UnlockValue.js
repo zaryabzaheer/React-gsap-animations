@@ -26,6 +26,21 @@ const UnlockValue = () => {
         textTimeline.kill();
       };
   }, []);
+  
+  const flipAndBounce = () => {
+    gsap.to(".ai-music", {
+      rotationY: 360,
+      duration: 1,
+      ease: "bounce4.out",
+      transformOrigin: "50% 50%",
+      repeat: -1,
+      yoyo: true
+    });
+  };
+
+  useEffect(() => {
+    flipAndBounce();
+  }, []);
 
   return (
     <section className="unlock-section">
