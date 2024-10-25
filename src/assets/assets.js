@@ -1,7 +1,7 @@
 import logo from '../assets/images/logo.png'; 
 import musicStrings from "../assets/images/music-strings.png";
 import musicIcon from "../assets/images/music-icon.png";
-import  orangeMusic from "../assets/images/orange-music.png";
+import orangeMusic from "../assets/images/orange-music.png";
 import greenMusic from "../assets/images/green-music.png";
 import pinkMusic from "../assets/images/pink-music.png";
 import halfNote from "../assets/images/half-note.png";
@@ -12,7 +12,6 @@ import laptopOne from "../assets/images/laptop-1.png";
 import laptopTwo from "../assets/images/laptop-2.png";
 import leftUnlock from "../assets/images/left-unlock.png";
 import rightUnlock from "../assets/images/right-unlock.png";
-import headerBefore from '../assets/images/header-before.png'; 
 
 export const images = {
   logo,
@@ -29,5 +28,4 @@ export const images = {
   laptopTwo,
   leftUnlock,
   rightUnlock,
-  headerBefore 
 };
